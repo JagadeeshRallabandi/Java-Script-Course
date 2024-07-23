@@ -1,0 +1,65 @@
+body.bg-dark {
+    background-color: #343a40; /* Dark background color for the body */
+}
+
+.container.bg-warning {
+    background-color: #ffc107; /* Yellow background for the container */
+    padding: 1.5rem; /* Padding for the container */
+    border-radius: 0.5rem; /* Rounded corners */
+    max-width: 600px; /* Maximum width of the container */
+    margin: 2rem auto; /* Centering the container with margin */
+}
+
+.text-center {
+    text-align: center; /* Centering the text */
+    color: black; /* Black text color */
+    font-weight: bold; /* Bold font */
+}
+
+.list-group {
+    padding: 0; /* Removing padding */
+    margin-bottom: 1rem; /* Bottom margin */
+    list-style: none; /* Removing list style */
+}
+
+.list-group-item {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Centering items vertically */
+    padding: 0.75rem 1.25rem; /* Padding */
+    margin-bottom: -1px; /* Removing margin between items */
+    background-color: #fff; /* White background */
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Border color */
+}
+
+.float-right {
+    float: right; /* Floating to the right */
+    color: black; /* Black text color */
+}
+
+.btn-success {
+    background-color: greenyellow; /* Green-yellow background for the button */
+    border: none; /* Removing border */
+    padding: 0.5rem 1rem; /* Padding */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    color: black; /* Black text color */
+    border-radius: 0.25rem; /* Rounded corners */
+}
+
+.btn-success:hover {
+    background-color: #adff2f; /* Slightly darker green-yellow on hover */
+}
+
+.mg-4 {
+    margin: 1.5rem 0; /* Margin top and bottom */
+}
+
+.mx-auto {
+    margin-left: auto; /* Auto left margin for centering */
+    margin-right: auto; /* Auto right margin for centering */
+}
+
+.d-block {
+    display: block; /* Block display */
+}
